@@ -53,6 +53,9 @@
     opacity: 0;
 }
 
+
+/* soluzione 5 */
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
@@ -69,15 +72,57 @@
     transform: scale(.9);
 }
 
+
+/* Soluzione 6 */
+
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+
+/* Soluzione 7 */
+
+.ex-7-img {
+    transition: 3s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(100%);
+    filter: opacity(50%);
+}
+
+
+/* Soluzione 8 */
+
+.ex-8-img {
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    border-radius: 20%;
+    filter: blur(.5);
+    filter: grayscale(.8);
+}
+
 .ex-6-img,
 .ex-7-img,
 .ex-8-img {
     width: 500px;
 }
 
+
+/* Soluzione 9 */
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 3s;
+}
+
+.ex-9-img:hover {
+    filter: opacity(.8) saturate(.6);
+    transform: scale(1.7);
+    border-radius: 10%;
 }
 
 .ex-10-icon {
